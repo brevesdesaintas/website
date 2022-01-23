@@ -1,0 +1,32 @@
+/*Navigation*/
+
+nav.menu-nav ul {
+	text-align: center;
+}
+
+nav.menu-nav ul li.btn-nav {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn-nav a {
+	color: #046e8f;
+	padding: 10px;
+	font-size: 18px;
+}
+
+nav.menu-nav ul li.btn-nav a:hover {
+	background: #bbb;
+	border-radius: 5px;
+}
+
+img.font-nav {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+	background-color: #eee;
+	padding-bottom: 1px;
+}

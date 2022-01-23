@@ -1,0 +1,30 @@
+.main-img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1.centered {
+	text-align: center;
+}
+
+h3 {
+	font-family: 'EbGaramond';
+	color: #046e8f;
+	margin-bottom: 0px;
+}
+
+.main-div .team-list {
+	list-style-type: none;
+}
+
+p.content-p {
+	margin-top: 5px;
+	padding-left: 10px;
+	font-size: 112.5%;
+}
+
+div.team {
+	margin-left: 20px;
+	border-left: 2px solid #046e8f;
+	margin-bottom: 25px;
+}

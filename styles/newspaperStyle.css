@@ -1,0 +1,32 @@
+iframe {
+	width: 50%;
+	height: 440px;
+	overflow: hidden;
+}
+
+.download-link {
+	text-decoration: none;
+	color: black;
+}
+
+.download-link:hover {
+	text-decoration: underline;
+}
+
+img.thumbmails {
+	height: auto;
+	max-height: 450px;
+	max-width: 80%;
+}
+
+hr {
+	width: 60%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div.download-div {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
