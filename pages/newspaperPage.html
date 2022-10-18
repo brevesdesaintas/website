@@ -19,13 +19,15 @@
 			const editions = [
 				new NewsPaper("JOURNAL_2020-2021", 0, "Année 2020-2021", "2020-2021"),
 				new NewsPaper("LES_BREVES_DE_ST_AS_-_JOURNAL1_octobre2021_22_2_VR", 1, "Octobre 2021", "2021-2022"),
-				new NewsPaper("LES_BREVES_DE_ST_AS_-_JOURNAL2_decembre2021_22_2", 2, "Decembre 2021", "2021-2022")
+				new NewsPaper("LES_BREVES_DE_ST_AS_-_JOURNAL2_decembre2021_22_2", 2, "Decembre 2021", "2021-2022"),
+				new NewsPaper("LES_BREVES_DE_ST_AS_-_JOURNAL1_octobre2022_23", 3, "Octobre 2022", "2022-2023")
 			]
 
 			var annees = []
 
 			function load() {
-				editions.forEach((item) => addToPage(item));
+				const goodFormatEdition = editions.reverse()
+				goodFormatEdition.forEach((item) => addToPage(item));
 
 				var frames = document.getElementsByClassName("iframe");
 
